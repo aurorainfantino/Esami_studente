@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Studente" max_length="40" name="x_570204_esami_sos_studente" type="collection">
+    <element label="Studente" max_length="40" name="x_570204_esami_sos_studente" sizeclass="4" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Cognome" mandatory="true" max_length="40" name="cognome" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="E-mail" mandatory="true" max_length="100" name="e_mail" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Nome" mandatory="true" max_length="40" name="nome" type="string"/>
