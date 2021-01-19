@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_570204_esami_sos_studente">x_570204_esami_sos_studente</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>STU</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-18 16:38:22</sys_created_on>
+        <sys_id>7a3f9bdddb3520102a18e04a4896193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>STU</sys_name>
+        <sys_package display_value="Esami_sostenuti" source="x_570204_esami_sos">a07e93dddb3520102a18e04a4896194c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Esami_sostenuti">a07e93dddb3520102a18e04a4896194c</sys_scope>
+        <sys_update_name>sys_number_7a3f9bdddb3520102a18e04a4896193d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-18 16:38:22</sys_updated_on>
+    </sys_number>
+</record_update>

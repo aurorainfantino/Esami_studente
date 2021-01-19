@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Esami sostenuti" max_length="40" name="x_570204_esami_sos_esami_sostenuti" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Data esame" mandatory="true" max_length="40" name="data_esame" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Esame sostenuto" mandatory="true" max_length="40" name="esame_sostenuto" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CAD" value="cad"/>
+                <element inactive_on_update="false" label="CAS" value="cas"/>
+                <element inactive_on_update="false" label="CIS" value="cis"/>
+                <element inactive_on_update="false" label="CSA" value="csa"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" mandatory="true" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non superato" sequence="0" value="non_superato"/>
+                <element inactive_on_update="false" label="Superato" sequence="1" value="superato"/>
+                <element inactive_on_update="false" label="Annullato" sequence="2" value="annullato"/>
+            </choice>
+        </element>
+        <element label="File esame in allegato" max_length="40" name="u_file_esame_in_allegato" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Note esaminatore" max_length="200" name="u_note_esaminatore" type="string"/>
+        <element attributes="encode_utf8=false" label="Studente_ID" mandatory="true" max_length="32" name="u_studente_id" reference="x_570204_esami_sos_studente" type="reference"/>
+        <index name="index">
+            <element name="u_studente_id"/>
+        </index>
+    </element>
+</database>

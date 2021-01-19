@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Studente" max_length="40" name="x_570204_esami_sos_studente" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Cognome" mandatory="true" max_length="40" name="cognome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="E-mail" mandatory="true" max_length="100" name="e_mail" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome" mandatory="true" max_length="40" name="nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Studente_ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Codice fiscale" max_length="16" name="u_codice_fiscale" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data di nascita" mandatory="true" max_length="40" name="u_data_di_nascita" type="glide_date"/>
+    </element>
+</database>
